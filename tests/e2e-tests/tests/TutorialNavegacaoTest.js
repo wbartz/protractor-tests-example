@@ -5,11 +5,4 @@ describe('Tutorial', function(){
         await tutorial.navegarTutorialContexto();
         browser.debugger();
     });
-
-    /*
-    // Outra forma de fazer 
-    it('Navegação no tutorial', function(){
-        return tutorial.navegarTutorialContexto();
-    });
-    */
 });

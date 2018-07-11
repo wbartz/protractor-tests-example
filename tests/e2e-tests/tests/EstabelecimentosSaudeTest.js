@@ -5,10 +5,10 @@ var estabelecimetosSaude = require('../pages/EstabelecimentosSaudePage.js');
 describe('Estabelecimetos Saúde', function () {
     it('Estabelecimetos Saúde', async function () {
         await tutorial.navegarTutorialContexto();
-        await login.loginContexto('PR5384');
+        await login.loginContexto('USER');
         await estabelecimetosSaude.estabelecimetosSaudeContexto();
         browser.debugger();
-    }); 
+    });
 });
 
 

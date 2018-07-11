@@ -5,10 +5,10 @@ var telefonesEmergencia = require('../pages/TelefonesEmergenciaPage.js');
 describe('Telefones Emergência', function () {
     it('Visualizar a tela de telefones de emergência', async function () {
         await tutorial.navegarTutorialContexto();
-        await login.loginContexto('PR5384');
+        await login.loginContexto('USER');
         await telefonesEmergencia.telefonesEmergenciaContexto();
         browser.debugger();
-    }); 
+    });
 });
 
 

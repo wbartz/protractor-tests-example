@@ -60,9 +60,7 @@ var TutorialPage = function () {
         await this.verifyFirstSlide();
         await this.skipTutorial();
         await this.verifySkipTutorial();
-        //browser.sleep(35000);
     }
-    
 }
 
 module.exports = new TutorialPage();

@@ -10,13 +10,12 @@ var TelefonesEmergenciaPage = function () {
 
     this.verificarTituloTela = async function () {
         await expect(this.tituloTela.getText()).toBe('Telefones de emergência');
-        //expect(object).toEqual(value, [message])
     }
 
     this.telefonesEmergenciaContexto = async function(){
         await this.clicarBotaoTelefonesEmergencia();
         // Fazer a validação quando a página terminar de carregar
-        //await this.verificarTituloTela();
+        await this.verificarTituloTela();
     }
 }
 

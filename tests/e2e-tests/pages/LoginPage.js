@@ -25,11 +25,8 @@ var LoginPage = function () {
         await this.btnTermos.click();
     }
 
-    /*this.clickSolicitarAcesso = async function () {
+    this.clickSolicitarAcesso = async function () {
         await this.btnSolicitarAcesso.click();
-    }*/
-    async function clickSolicitarAcesso () {
-        await btnSolicitarAcesso.click();
     }
 
     this.validacaoLogin = async function () {
@@ -41,7 +38,7 @@ var LoginPage = function () {
         await this.setUsername(usuario);
         await this.clickCheckbox();
         await this.clickTermos();
-        await clickSolicitarAcesso();
+        await this.clickSolicitarAcesso();
         await this.validacaoLogin();
     }
 }

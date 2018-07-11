@@ -64,7 +64,7 @@ var ReportarIncidentePage = function () {
     this.acionarCheckboxOutros = async function () {
         await this.checkboxOutros.click();
     }
-    
+
     this.preencherCampoOutrosEnvolvidos = async function (outros) {
         await this.campoOutrosEnvolvidos.sendKeys(outros);
     }

@@ -1,1 +1,22 @@
- {  "name": "engie-gsr",  "version": "0.0.1",  "author": "SoftDesign Consultoria e Sistemas",  "homepage": "http://www.softdesign.com.br/",  "private": true,  "scripts": {  },  "dependencies": {    "appium-uiautomator2-driver": "^1.1.1",    "protractor": "^5.3.0",    "webdriver-manager": "^12.0.6",    "webdriverio": "^4.10.2",  },  "devDependencies": {    "jasmine-spec-reporter": "^4.2.1",    "typescript": "2.2.1",  },  "description": "Engie GSR",  "config": {    "ionic_bundler": "webpack",    "ionic_source_map": "source-map"  },}
+ {
+   "name": "protractor-tests",
+   "version": "0.0.1",
+   "author": "William Bartz <williamf.brtz@gmail.com>",
+   "private": true,
+   "scripts": {},
+   "dependencies": {
+     "appium-uiautomator2-driver": "^1.1.1",
+     "protractor": "^5.3.0",
+     "webdriver-manager": "^12.0.6",
+     "webdriverio": "^4.10.2"
+   },
+   "devDependencies": {
+     "jasmine-spec-reporter": "^4.2.1",
+     "typescript": "2.2.1"
+   },
+   "description": "Tests with Protractor",
+   "config": {
+     "ionic_bundler": "webpack",
+     "ionic_source_map": "source-map"
+   },
+ }
